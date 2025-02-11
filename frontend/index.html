@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticket Now</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Ingressos Disponíveis</h1>
+        <nav>
+            <a href="entrar.html" id="link-entrar">Entrar</a>
+            <a href="registrar.html" id="link-registrar">Registrar</a>
+            <span id="saudacao-usuario" style="display: none;">Olá, <span id="nome-usuario"></span>!</span>
+            <a href="adicionarEvento.html" id="link-adicionar-evento" style="display: none;">Adicionar Evento</a>
+            <a href="#" id="link-sair" style="display: none;">Sair</a>
+        </nav>
+    </header>
+
+    <main>
+        <div id="eventos-lista">
+            <!-- Lista de eventos será carregada aqui via JavaScript -->
+        </div>
+    </main>
+
+    <script src="estrutura.js"></script>
+</body>
+</html>
